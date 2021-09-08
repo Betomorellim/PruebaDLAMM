@@ -7,3 +7,7 @@ body {
 .collapse{
       text-align: right;
   }
+.footer{
+    background: violet;
+    color: #ffffff;
+  }
