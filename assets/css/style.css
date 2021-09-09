@@ -13,6 +13,17 @@ body {
     background: black;
     color: #ffffff;
   }
-.row{
+.row1{
     background-color: black;
+    color: black;
+    margin-top: 10px;
+}
+.parrafos{
+    color: #fff;
+    text-align: justify;
+    display: inline-flex;
+    font-size: 13px;
+}
+.fas{
+    color: white;
 }

@@ -19,10 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/e2f5b5382b.js" crossorigin="anonymous"></script>
     <!--Popper JS 1.14.3-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
@@ -61,54 +58,65 @@
         </div>
     </nav>
     <header>
-    <div class="carrusel">
-        <a href="#" class="left-arrow"><img src="images/left-arrow.png" /></a>
-        <a href="#" class="right-arrow"><img src="images/right-arrow.png" /></a>
         <div class="carrusel">
             <div class="product" id="product_0">
-                <img src="assets/img/carousel1.jpg"/>
+                <img src="assets/img/carousel1.jpg" />
             </div>
             <div class="product" id="product_1">
-                <img src="assets/img/carousel2.jpg"/>
+                <img src="assets/img/carousel2.jpg" />
             </div>
             <div class="product" id="product_2">
-                <img src="assets/img/carousel3.jpg"/>
+                <img src="assets/img/carousel3.jpg" />
             </div>
-        </div>    
-    </div>    
-        <div class="quienessomos">
-            <h2>Quienes Somos</h2>
-            <section class="container-fluid">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eum totam, inventore enim velit nihil
-                    voluptatem cumque itaque repellat ipsa quam ipsam obcaecati non! Laboriosam possimus quas sequi
-                    soluta
-                    nostrum!
-                </p>
-                <section class="container-fluid">
+        </div>
+        <section class="container">
+            <h2 class="display-4 text-center font-weight-bold text-light mb-3 border-bottom border-primary pb-3">Quienes
+                Somos</h2>
+            <div class="row"> 
+                <div class="col col-md-4">
+                    <div class="row1 text-center bg-info">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eum totam, inventore enim velit
+                        nihil
+                        voluptatem cumque itaque repellat ipsa quam ipsam obcaecati non! Laboriosam possimus quas sequi
+                        soluta
+                        nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, doloribus nemo dicta eum voluptatum rem voluptates architecto ad voluptate ullam aspernatur, error labore sint accusamus iste optio, consequatur unde cum.
+                    </p>
+                </div>
+                <div class="col col-md-4">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sint delectus placeat quos,
                         itaque atque
                         pariatur excepturi nostrum saepe at, sed corrupti alias dolore obcaecati nulla numquam. Nobis,
                         aliquam
-                        quod?
+                        quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad facere, unde in sunt at blanditiis. Deserunt commodi a ipsam, accusantium modi reiciendis quisquam? Esse ex dolor sunt similique quo!
                     </p>
-                </section>
-                <section class="container-fluid"> 
+                    <div class="row1 text-center bg-info">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="row1 text-center bg-info">
+                        <i class="fas fa-route"></i>
+                    </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet at explicabo hic esse distinctio
                         dolore
                         ullam facere atque. Facilis iste eligendi quis excepturi placeat ipsam voluptate repudiandae
                         adipisci
-                        provident possimus.
+                        provident possimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione sunt fugiat explicabo, earum neque assumenda ad debitis expedita reprehenderit doloremque et, dolorum amet? Dignissimos commodi culpa id, repudiandae dolorum a.
                     </p>
-                </section>
-        </div>
+                </div>
+            </div>
+        </section>
         <div class="destacados">
             <section class="container-fluid my-5 p-5" id="work">
-                <h2 class="display-4 text-center font-weight-bold text-light mb-3">Destacados</h2>
+                <h2 class="display-4 text-center font-weight-bold text-light mb-3 border-bottom border-primary pb-3">
+                    Destacados</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100">
                             <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
-                            <div class="card-body">
+                            <div class="card-body bg-info">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet </h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
                                     error consequuntur mollitia, consequatur porro velit perspiciatis optio incidunt
@@ -117,7 +125,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100 bg-info">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Consectetur adipisicing elit</h5>
@@ -128,7 +136,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100 bg-info">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sed do eiusmod temper incididunt ut labore</h5>
@@ -140,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100 bg-info">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Ut enim ad minim veniam</h5>
@@ -167,13 +175,14 @@
 
     </header>
     <footer class="footer">
+        <p>Viajes Chile</p>
         <footer id="contacto" class="footer">
             <div class="logos footer text-end">
-                <a href="https://github.com"><i class="fab fa-github-square fa-5x"></i></a>
-                <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a>
-                <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
+                <a href="https://github.com/Ruller1"><i class="fab fa-github-square icons"></i></a>
+                <a href="https://cl.linkedin.com/"><i class="fab fa-linkedin icons"></i></a>
+                <a href="https://twitter.com/home?lang=es"><i class="fab fa-twitter-square icons"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icons"></i></a>
             </div>
-            <p>Viajes Chile</p>
         </footer>
     </footer>
 </body>
