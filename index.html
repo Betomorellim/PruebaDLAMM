@@ -37,8 +37,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img class="logo" src="assets/img/viajes.svg" width="50"
                     height="50">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -86,7 +86,7 @@
             </a>
           </div>
 
-        <section class="container">
+        <section class="container-fluid">
             <h2 class="text-center recipe container pt-4 border-bottom border-primary pb-3">Quienes
                 Somos</h2>
             <div class="row"> 
@@ -129,7 +129,7 @@
             <section class="container-fluid my-5 p-5" id="work">
                 <h2 class="text-center recipe container pt-4 border-bottom border-primary pb-3">
                     Destacados</h2>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="card-deck row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
                         <div class="card h-100">
                             <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
@@ -181,20 +181,14 @@
         </div>
         <h2 class="text-center recipe container pt-4 border-bottom border-primary pb-3">Contacto</h2>
         <section id="contact" class="container my-5">
-            <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ"
-                style="width: 100%; height: 500px;"></div>
-            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
-            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by
-                <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
-                    style="color: #999" target="_blank">Typeform</a>
-            </div>
-        </section>
-
+            <div data-tf-widget="kyMrerdC" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>        </section>
     </header>
     <footer class="footer bg-info">
-        <p>Viajes Chile</p>
-        <div id="contacto" class="footer text-end">
-            <div class="logosfooter">
+        <div class="col">
+            <p>Viajes Chile</p>  
+        </div>
+        <div id="contacto" class="footer2 text-end">
+            <div class="col logosfooter">
                 <a href="https://github.com/Ruller1"><i class="fab fa-github-square icons"></i></a>
                 <a href="https://cl.linkedin.com/"><i class="fab fa-linkedin icons"></i></a>
                 <a href="https://twitter.com/home?lang=es"><i class="fab fa-twitter-square icons"></i></a>

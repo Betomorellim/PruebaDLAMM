@@ -9,8 +9,14 @@ body {
 .navbar-collapse{
       text-align: right;
   }
+.navbar{
+    background-color: transparent;
+    display: absolute;
+}
+.bg-dark{
+    background-color: transparent;
+}
 .footer{
-    background: black;
     color: #ffffff;
   }
 .row1{
