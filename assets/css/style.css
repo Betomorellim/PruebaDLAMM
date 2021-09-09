@@ -1,13 +1,15 @@
 body {
     font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: black;
   }
 .logo{
-    size: 0.3px;
+    padding-right: 10px;
 }  
-.collapse{
+.navbar-collapse{
       text-align: right;
   }
 .footer{
-    background: violet;
+    background: black;
     color: #ffffff;
   }
